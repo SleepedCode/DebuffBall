@@ -1,0 +1,15 @@
+name: DebuffBall
+version: 1.0.0
+main: sleepedcode\DebuffBall
+api: 5.0.0
+author: SleepedCode
+
+commands:
+  giveball:
+    description: "debuffball command"
+    permission: "giveball.cmd.use"
+
+permissions:
+  giveball.cmd.use:
+    default: op
+    description: "giveball permission"
